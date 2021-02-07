@@ -13,7 +13,7 @@ def this():
         rnd.append(a)
 
 
-        print(''.join(rnd))
+        print(''.join(rnd), end='')
 
 if __name__== "__main__":
   this()
